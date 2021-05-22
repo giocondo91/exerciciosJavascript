@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var anoAtual = 2021;
+    var chegadaPortugueses = 1500;
+    var geracoesPortugueses = Math.round((anoAtual - chegadaPortugueses)/28);
+
+    mostra("A quantidade de gerações de Portugueses e seus descendentes no Brasil até hoje é de " + geracoesPortugueses + " gerações");
+    pulaLinha();
+</script>
